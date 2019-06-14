@@ -1,0 +1,21 @@
+
+Write a program to
+  read large text file (1 gb)
+  identify palindromes
+  for each line, print the palindromes in the order of  maximum occurances 
+
+example:
+  malayalam is a palindrome malayalam is a language, ama is a palindrome too || o/p at end of line 1: {malayalam:2, ama:1}
+  ama is a palindrome ama is not a language, ama is a palindrome too, old palindrrome is malayalam || o/p at end of line 2: {ama:4, malayalam:3}
+  madam madam madam madam madam madam ||| o/p at end of line 3: {madam:5, ama:4, malayalam:3}
+
+------------
+------------------------
+------------
+
+
+  Changes:
+
+  Increase the test file size to 2 gb and see what code changes are required to optimise the performance
+  Change the code to class
+  Write the results to a file/database (define interface for writing output)
