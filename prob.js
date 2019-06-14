@@ -10,7 +10,7 @@ function readLines({ input }) {
     output.write(line);
     //console.log(`Line from file: ${line}`);
   });
-  let count = 0;
+  // let count = 0;
     rl.on('line', (line) => {
       let words = line.split(/\s+/);
       let palindromeWords = {};
@@ -27,7 +27,7 @@ function readLines({ input }) {
       });
       console.log(line + "|| "+JSON.stringify(palindromeWords));
     // console.log(count + ' ' + line);
-    count += 1;
+    // count += 1;
   });
 
   rl.on("close", () => {
